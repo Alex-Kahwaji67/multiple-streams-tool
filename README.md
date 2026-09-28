@@ -6,7 +6,7 @@ Watch several streams at once. Press a key to bring one forward and hear its aud
 
 Use it for games, live events, conference stages, or any other browser streams. It works with **two to four streams in separate browser windows**. Each shortcut sets the audio state explicitly, so pressing the same key twice keeps the same stream audible.
 
-[Download the latest release](../../releases/latest) · [Report a bug](../../issues) · [MIT license](LICENSE)
+[Download the latest release](https://github.com/Alex-Kahwaji67/multiple-streams-tool/releases/latest) · [Report a bug](https://github.com/Alex-Kahwaji67/multiple-streams-tool/issues) · [MIT license](LICENSE)
 
 ## What you need
 
@@ -20,7 +20,7 @@ The extension controls audio by tab, even when all streams share a browser proce
 
 ### 1. Download and install the browser extension
 
-Download the ZIP from [Releases](../../releases/latest), extract it, and keep the folder somewhere permanent. Moving or deleting it will break the unpacked extension.
+Download the ZIP from [Releases](https://github.com/Alex-Kahwaji67/multiple-streams-tool/releases/latest), extract it, and keep the folder somewhere permanent. Moving or deleting it will break the unpacked extension.
 
 Open your browser's extensions page:
 
