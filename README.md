@@ -1,6 +1,6 @@
 # Multiple Streams Tool
 
-![Multiple Streams: four broadcast monitors with one active audio indicator](docs/overview.png)
+![Multiple Streams: American football, basketball, MMA glove, and hockey icons](docs/overview.png)
 
 Watch several streams at once. Press a key to bring one forward and hear its audio while the other selected tabs stay muted.
 
