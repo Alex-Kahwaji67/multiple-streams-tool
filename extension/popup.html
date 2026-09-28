@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multiple Streams Tool</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<header><span class="eyebrow">MULTIPLE STREAMS TOOL</span><h1>Keep watching.<br>Choose what you hear.</h1>
+<p>Select two to four tabs from separate windows in this browser.</p></header>
+<form id="streams">
+<div class="stream"><label for="stream1"><kbd>F7</kbd> Stream 1 <span>Desktop 1</span></label><select id="stream1" required></select></div>
+<div class="stream"><label for="stream2"><kbd>F8</kbd> Stream 2 <span>Desktop 2</span></label><select id="stream2" required></select></div>
+<div class="stream"><label for="stream3"><kbd>F9</kbd> Stream 3 <span>Optional / Desktop 3</span></label><select id="stream3"></select></div>
+<div class="stream"><label for="stream4"><kbd>F10</kbd> Stream 4 <span>Optional / Desktop 4</span></label><select id="stream4"></select></div>
+<div class="actions"><button type="submit">Save streams</button><button type="button" id="pause" class="secondary">Pause audio control</button></div>
+</form>
+<p id="status" role="status" aria-live="polite">Loading tabs...</p>
+<p id="audio" role="status" aria-live="polite"></p>
+<footer>F7 through F10 require the Windows script. Browser shortcuts: Ctrl+Shift+7, 8, 9, 0.<br><br>Keep player sound on. Select tabs again after reopening them, changing their URLs, or restarting the browser. Reopen this panel to refresh the tab list.</footer>
+<script type="module" src="popup.js"></script>
+</body>
+</html>

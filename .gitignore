@@ -1,0 +1,16 @@
+# Local browser profiles, settings, logs and credentials never belong in the repo.
+node_modules/
+.env
+.env.*
+*.log
+*.zip
+*.crx
+*.pem
+*.lnk
+*.url
+*.ini
+*-results.txt
+*profile*/
+work/
+.DS_Store
+Thumbs.db

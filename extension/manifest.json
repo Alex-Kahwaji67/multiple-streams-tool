@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Multiple Streams Tool",
+  "version": "1.0.0",
+  "description": "Switch between two to four stream windows and hear only the selected tab. Optional Windows desktop shortcuts.",
+  "permissions": ["tabs", "storage"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "Multiple Streams Tool" },
+  "commands": {
+    "stream1": { "description": "Select stream 1", "global": true, "suggested_key": { "default": "Ctrl+Shift+7" } },
+    "stream2": { "description": "Select stream 2", "global": true, "suggested_key": { "default": "Ctrl+Shift+8" } },
+    "stream3": { "description": "Select stream 3", "global": true, "suggested_key": { "default": "Ctrl+Shift+9" } },
+    "stream4": { "description": "Select stream 4", "global": true, "suggested_key": { "default": "Ctrl+Shift+0" } }
+  }
+}
